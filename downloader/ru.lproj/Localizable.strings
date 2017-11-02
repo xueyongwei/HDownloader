@@ -1,0 +1,65 @@
+/*
+ InfoPlist.strings
+ downloader
+ 
+ Created by xueyognwei on 2017/4/18.
+ Copyright © 2017年 xueyognwei. All rights reserved.
+ */
+"Please rate us to support developers and get more cool features！" = "Пожалуйста, дайте нам оценки, для поддержки разработчики, и получить более круто функции!";
+"Later" = "позже";
+"5 stars" = "5 звезд";
+"Browser" = "Браузер";
+"Tasks" = "Задания";
+"Files" = "Файл";
+"Settings" = "настройка";
+"Search or type URL" = "Поиск или введите URL-адрес";
+"Download file？" = "Скачать файл?";
+"Download" = "Скачать";
+"Bookmark" = "Закладка";
+"Farvorites" = "Любимых";
+"Done" = "завершение";
+"Edit" = "редактирование";
+"Delete" = "удалить";
+"Cancel" = "Отставить";
+"Add to Bookmark" = "Добавить в закладки";
+"Add to Favorite" = "Добавить в избранное";
+"Open Bookmark" = "Открыть закладку";
+"Copy" = "копировать";
+"Download all" = "Скачать все";
+"Pause all" = "Приостановить все";
+"waiting..." = "Ожидание …";
+"connecting the network..." = "Подключение к сети …";
+"Select All" = "Выбрать все";
+"Deselect All " = "Полностью не выбрать";
+"Download SD" = "Скачать SD";
+"Download HD" = "Скачать HD";
+"Download Full HD" = "Скачать в формате Full HD";
+"Search" = "Поиск";
+"No results" = "Без результатов";
+"Share" = "поделиться";
+"Open in" = "открытый";
+"Rename" = "переименовать";
+"New name" = "Новое имя";
+"OK" = "хорошо";
+"freesize" = "избыток";
+"Are you sure to delete？" = "Уверен, чтобы удалить?";
+"Sort" = "Сортировка по";
+"Sort by Date" = "Сортировать по дате";
+"Sort by Name" = "Сортировать по имени";
+"Sort by Size" = "Сортировать по размеру";
+"Remove Ads" = "Снимать рекламу";
+"Permanently Remove Ads." = "Постоянно снимать рекламу";
+"Only use WiFi to download" = "Только с wi-fi сеть загрузить";
+"Search Engine" = "Поисковые системы";
+"Rate us" = "Оцените нас";
+"Share App" = "Поделиться App";
+"Contact Developer" = "Связь застройщик";
+"Need help？Drop us a letter at hdownloaderapp@gmail.com" = "Нужна помощь?Через hdownloaderapp@gmail.com связь нас в покое";
+"The file does not exist." = "Файл не существует.";
+"The file already exists." = "Файл уже существует.";
+"No WiFi.You can go to the settings and turn off \"Only use WiFi to download\"button." = "Нет WiFi. Вы можете перейти к настройкам и отключить кнопку «Только с wi-fi сеть загрузить».";
+"Got it" = "知道了";
+"The file can not be downloaded according to relevant laws, regulations and policies." = "Файл не может быть загружен в соответствии с соответствующими законами, правилами и политикой.";
+"It's convenient to download video with this App,just try it!" = "Скачать видео легко.";
+"download failed" = "Не удалось скачать";
+"downloaded" = "Успех загрузки";

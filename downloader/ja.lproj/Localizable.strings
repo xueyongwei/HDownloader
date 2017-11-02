@@ -1,0 +1,65 @@
+/*
+ InfoPlist.strings
+ downloader
+ 
+ Created by xueyognwei on 2017/4/18.
+ Copyright © 2017年 xueyognwei. All rights reserved.
+ */
+"Please rate us to support developers and get more cool features！" = "ご評価とご応援をお待ちしています。もっとクールなファンクションがゲットできます！";
+"Later" = "後で";
+"5 stars" = "五つ星";
+"Browser" = "ブラウザ";
+"Tasks" = "タスク";
+"Files" = "ファイル";
+"Settings" = "設定";
+"Search or type URL" = "URLの検索や入力";
+"Download file？" = "このファイルをダウンロードしますか？";
+"Download" = "ダウンロード";
+"Download SD" = "SDをダウンロード";
+"Download HD" = "HDをダウンロード";
+"Download Full HD" = "フルHDをダウンロード";
+"Bookmark" = "ブックマーク";
+"Farvorites" = "一番気に入り";
+"Done" = "完了";
+"Edit" = "編輯";
+"Delete" = "削除";
+"Cancel" = "キャンセル";
+"Add to Bookmark" = "ブックマークに入れる";
+"Add to Favorite" = "お気に入りに入れる";
+"Open Bookmark" = "ブックマークを開く";
+"Copy" = "コピー";
+"Download all" = "全部ダウンロードする";
+"Pause all" = "全部一時停止する";
+"waiting..." = "しばらくお待ちください";
+"connecting the network..." = "接続中";
+"Select All" = "全部チェックする";
+"Deselect All " = "全部チェックしない";
+"Search" = "検索";
+"No results" = "結果なし";
+"Share" = "シェア";
+"Open in" = "で開く";
+"Rename" = "名前の変更";
+"New name" = "新しい名前";
+"OK" = "OK";
+"freesize" = "利用可能なメモリー";
+"Are you sure to delete？" = "削除してもよろしいですか";
+"Sort" = "並べ替え";
+"Sort by Date" = "日付順";
+"Sort by Name" = "名前順";
+"Sort by Size" = "サイズ順";
+"Remove Ads" = "広告を削除する";
+"Permanently Remove Ads." = "永遠的に広告を削除する";
+"Only use WiFi to download" = "ただWiFiを利用する場合にダウンロードする";
+"Search Engine" = "検索エンジン";
+"Rate us" = "評価";
+"Share App" = "APPをシェアする";
+"Contact Developer" = "開発者に連絡する";
+"Need help？Drop us a letter at hdownloaderapp@gmail.com" = "ヘルプが必要な場合、hdownloaderapp@gmail.comまで連絡してください。";
+"The file does not exist." = "ファイルが存在しません。";
+"The file already exists." = "ファイルが存在しています。";
+"No WiFi.You can go to the settings and turn off \"Only use WiFi to download\"button." = "WiFiはありません。設定に行き、「WiFiのみをダウンロードする」ボタンをオフにすることができます。";
+"Got it" = "分かった";
+"The file can not be downloaded according to relevant laws, regulations and policies." = "関連する法律、規則、方針に従ってファイルをダウンロードすることはできません。";
+"It's convenient to download video with this App,just try it!" = "アプリケーションを介して高速ダウンロードビデオ";
+"download failed" = "失敗した";
+"downloaded" = "ダウンロード完了";

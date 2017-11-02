@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  downloader
+
+  Created by xueyognwei on 2017/4/18.
+  Copyright © 2017年 xueyognwei. All rights reserved.
+*/
+"freesize" = "free";
+"Files" = "files";

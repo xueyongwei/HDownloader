@@ -1,0 +1,65 @@
+/*
+ InfoPlist.strings
+ downloader
+ 
+ Created by xueyognwei on 2017/4/18.
+ Copyright © 2017年 xueyognwei. All rights reserved.
+ */
+"Please rate us to support developers and get more cool features！" = "请给我们评价，以支持开发人员，并获得更酷的功能！";
+"Later" = "稍后";
+"5 stars" = "5星好评";
+"Browser" = "浏览器";
+"Tasks" = "任务";
+"Files" = "文件";
+"Settings" = "设置";
+"Search or type URL" = "搜索或输入网址";
+"Download file？" = "下载该文件？";
+"Download" = "下载";
+"Bookmark" = "书签";
+"Farvorites" = "最爱";
+"Done" = "完成";
+"Edit" = "编辑";
+"Delete" = "删除";
+"Cancel" = "取消";
+"Add to Bookmark" = "添加至书签";
+"Add to Favorite" = "添加至个人收藏";
+"Open Bookmark" = "打开书签";
+"Copy" = "复制";
+"Download all" = "全部开始下载";
+"Pause all" = "全部暂停下载";
+"waiting..." = "等待中...";
+"connecting the network..." = "正在连接网络...";
+"Select All" = "全选";
+"Deselect All" = "全不选";
+"Download SD" = "下载标清";
+"Download HD" = "下载高清";
+"Download Full HD" = "下载超清";
+"Search" = "搜索";
+"No results" = "无结果";
+"Share" = "分享";
+"Open in" = "打开方式";
+"Rename" = "重命名";
+"New name" = "新名字";
+"OK" = "好的";
+"freesize" = "剩余";
+"Are you sure to delete？" = "确定删除吗？";
+"Sort" = "排序";
+"Sort by Date" = "按日期排序";
+"Sort by Name" = "按名称排序";
+"Sort by Size" = "按文件大小排序";
+"Remove Ads" = "移除广告";
+"Permanently Remove Ads." = "永久的移除广告";
+"Only use WiFi to download" = "仅使用WiFi网络下载";
+"Search Engine" = "搜索引擎";
+"Rate us" = "评价";
+"Share App" = "分享App";
+"Contact Developer" = "联系开发者";
+"Need help？Drop us a letter at hdownloaderapp@gmail.com" = "需要帮助？通过hdownloaderapp@gmail.com联系我们吧。";
+"The file does not exist." = "该文件不存在";
+"The file already exists." = "该文件已存在";
+"No WiFi.You can go to the settings and turn off \"Only use WiFi to download\"button." = "无WiFi，你可以去设置里关闭“仅使用WiFi网络下载”按钮";
+"Got it" = "知道了";
+"The file can not be downloaded according to relevant laws, regulations and policies." = "根据相关法律法规和政策，该视频不支持下载";
+"It's convenient to download video with this App,just try it!" = "这个App下载视频很方便，推荐你试试";
+"download failed" = "下载失败";
+"downloaded" = "下载成功";

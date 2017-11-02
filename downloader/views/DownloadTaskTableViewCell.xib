@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DownloadTaskTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="DownloadTaskTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysn-4U-0N1">
+                        <rect key="frame" x="15" y="18" width="246" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="waiting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdR-PP-ird">
+                        <rect key="frame" x="15" y="37" width="156" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.74117647058823533" green="0.74117647058823533" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTa-2F-VIw">
+                        <rect key="frame" x="181" y="38" width="80" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="c7l-p7-hNC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vQ-R5-hgs" customClass="DownLoadButton">
+                        <rect key="frame" x="271" y="12" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="FhX-Iv-lPL"/>
+                            <constraint firstAttribute="height" constant="44" id="G1e-S4-Sqf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" image="downloadnormal"/>
+                        <state key="selected" image="downloadpause"/>
+                        <connections>
+                            <action selector="onDownloadBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MOB-4h-UdG"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="SdR-PP-ird" firstAttribute="centerY" secondItem="jTa-2F-VIw" secondAttribute="centerY" id="60O-pE-Q5M"/>
+                    <constraint firstItem="SdR-PP-ird" firstAttribute="leading" secondItem="ysn-4U-0N1" secondAttribute="leading" id="B0U-NY-F0t"/>
+                    <constraint firstItem="jTa-2F-VIw" firstAttribute="leading" secondItem="SdR-PP-ird" secondAttribute="trailing" constant="10" id="CwT-fe-hHK"/>
+                    <constraint firstItem="ysn-4U-0N1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="DYY-kL-N4b"/>
+                    <constraint firstItem="8vQ-R5-hgs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Y9h-rp-OkL"/>
+                    <constraint firstItem="jTa-2F-VIw" firstAttribute="top" secondItem="ysn-4U-0N1" secondAttribute="bottom" constant="3" id="fk2-ad-Rid"/>
+                    <constraint firstItem="8vQ-R5-hgs" firstAttribute="leading" secondItem="jTa-2F-VIw" secondAttribute="trailing" constant="10" id="qub-Fe-diI"/>
+                    <constraint firstItem="8vQ-R5-hgs" firstAttribute="leading" secondItem="ysn-4U-0N1" secondAttribute="trailing" constant="10" id="tW8-3p-Ead"/>
+                    <constraint firstItem="ysn-4U-0N1" firstAttribute="centerY" secondItem="8vQ-R5-hgs" secondAttribute="centerY" constant="-7.5" id="ubw-h0-Qhf"/>
+                    <constraint firstAttribute="trailing" secondItem="8vQ-R5-hgs" secondAttribute="trailing" constant="5" id="wZB-7D-xkb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="downLoadBtn" destination="8vQ-R5-hgs" id="42z-pI-Uo8"/>
+                <outlet property="downloadSpeedLabel" destination="jTa-2F-VIw" id="1aa-z5-e7D"/>
+                <outlet property="videoNameLabel" destination="ysn-4U-0N1" id="D1M-fI-Aay"/>
+                <outlet property="videoSizeLabel" destination="SdR-PP-ird" id="NHe-Px-pcM"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="downloadnormal" width="24" height="24"/>
+        <image name="downloadpause" width="24" height="24"/>
+    </resources>
+</document>

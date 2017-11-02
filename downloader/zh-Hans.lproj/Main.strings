@@ -1,0 +1,79 @@
+
+/* Class = "UIButton"; normalTitle = "Seletct All"; ObjectID = "0SG-i2-1t4"; */
+"0SG-i2-1t4.normalTitle" = "全选";
+
+/* Class = "UIButton"; selectedTitle = "Deselect All"; ObjectID = "0SG-i2-1t4"; */
+"0SG-i2-1t4.selectedTitle" = "全不选";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "4r5-29-Fpv"; */
+"4r5-29-Fpv.normalTitle" = "编辑";
+
+/* Class = "UIButton"; selectedTitle = "Cancel"; ObjectID = "4r5-29-Fpv"; */
+"4r5-29-Fpv.selectedTitle" = "取消";
+
+/* Class = "UITabBarItem"; title = "Tasks"; ObjectID = "BYd-1h-XVV"; */
+"BYd-1h-XVV.title" = "任务";
+
+/* Class = "UINavigationItem"; title = "Setting"; ObjectID = "D03-YA-KaT"; */
+"D03-YA-KaT.title" = "设置";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "FH7-Im-rlR"; */
+"FH7-Im-rlR.title" = "设置";
+
+/* Class = "UITabBarItem"; title = "Browser"; ObjectID = "Hga-0m-GSj"; */
+"Hga-0m-GSj.title" = "浏览器";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "Igz-8V-10i"; */
+"Igz-8V-10i.normalTitle" = "完成";
+
+/* Class = "UINavigationItem"; title = "browser"; ObjectID = "Kef-T9-WT7"; */
+"Kef-T9-WT7.title" = "浏览器";
+
+/* Class = "UINavigationItem"; title = "Files"; ObjectID = "Mso-mv-AUo"; */
+"Mso-mv-AUo.title" = "文件";
+
+/* Class = "UIBarButtonItem"; title = "Delete"; ObjectID = "NZ2-4R-jyC"; */
+"NZ2-4R-jyC.title" = "删除";
+/* Class = "UIBarButtonItem"; title = "Delete"; ObjectID = "NZ2-4R-jyC"; */
+"64J-Fj-2cx.title" = "删除";
+/* Class = "UINavigationItem"; title = "BookMarkets"; ObjectID = "Ur1-md-tum"; */
+"Ur1-md-tum.title" = "书签";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "XXC-0I-4NI"; */
+"XXC-0I-4NI.normalTitle" = "编辑";
+
+/* Class = "UIButton"; selectedTitle = "Done"; ObjectID = "XXC-0I-4NI"; */
+"XXC-0I-4NI.selectedTitle" = "完成";
+
+/* Class = "UINavigationItem"; title = "Add bookmark"; ObjectID = "YQE-IA-c1A"; */
+"YQE-IA-c1A.title" = "添加至书签";
+
+/* Class = "UITabBarItem"; title = "Files"; ObjectID = "cfO-xA-MCj"; */
+"cfO-xA-MCj.title" = "文件";
+
+/* Class = "UIButton"; normalTitle = "Sort"; ObjectID = "dFa-1n-1zp"; */
+"dFa-1n-1zp.normalTitle" = "排序";
+
+/* Class = "UINavigationItem"; title = "Tasks"; ObjectID = "i9z-hL-3KQ"; */
+"i9z-hL-3KQ.title" = "任务";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "o1c-Hz-1ww"; */
+"o1c-Hz-1ww.title" = "Item";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "qQe-X2-TGf"; */
+"qQe-X2-TGf.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "setting"; ObjectID = "rP9-JM-Zl9"; */
+"rP9-JM-Zl9.title" = "设置";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "rWa-sb-eYL"; */
+"rWa-sb-eYL.normalTitle" = "编辑";
+
+/* Class = "UIButton"; selectedTitle = "Cancel"; ObjectID = "rWa-sb-eYL"; */
+"rWa-sb-eYL.selectedTitle" = "取消";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "sUb-Cv-ENR"; */
+"sUb-Cv-ENR.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "vI9-Lr-Rtt"; */
+"vI9-Lr-Rtt.normalTitle" = "完成";

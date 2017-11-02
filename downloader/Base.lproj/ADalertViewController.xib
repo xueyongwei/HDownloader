@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADalertViewController">
+            <connections>
+                <outlet property="bannerImgV" destination="PnT-Qt-fyH" id="fQy-rg-oOF"/>
+                <outlet property="closeBtn" destination="2fO-zN-WMH" id="BXX-aB-qAk"/>
+                <outlet property="descLabel" destination="zkA-gf-uYW" id="71W-Nh-vF6"/>
+                <outlet property="iconImgV" destination="Qv2-nT-wNu" id="cMG-fd-scB"/>
+                <outlet property="titleLabel" destination="bN9-Xy-ciT" id="i7l-DL-C0t"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fO-zN-WMH">
+                    <rect key="frame" x="311" y="20" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="JdJ-Pd-Emt"/>
+                        <constraint firstAttribute="height" constant="44" id="YlE-uJ-Gmd"/>
+                    </constraints>
+                    <state key="normal" image="webstop"/>
+                    <connections>
+                        <action selector="onDisMissClcik:" destination="-1" eventType="touchUpInside" id="yEr-Dk-DnY"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j5T-0v-2cP">
+                    <rect key="frame" x="38" y="109" width="300" height="450"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bN9-Xy-ciT" userLabel="title">
+                            <rect key="frame" x="90" y="15" width="202" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkA-gf-uYW" userLabel="desc">
+                            <rect key="frame" x="90" y="40" width="202" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="Qv2-nT-wNu">
+                            <rect key="frame" x="15" y="15" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Qv2-nT-wNu" secondAttribute="height" multiplier="1:1" id="TWg-x5-tgZ"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="PnT-Qt-fyH">
+                            <rect key="frame" x="15" y="90" width="270" height="270"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="PnT-Qt-fyH" secondAttribute="height" multiplier="1:1" id="yEi-fm-U1N"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmV-B5-fhK">
+                            <rect key="frame" x="135" y="405" width="150" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="BCz-tQ-0IJ"/>
+                                <constraint firstAttribute="height" constant="30" id="dre-Qy-bTI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="INSTALL NOW">
+                                <color key="titleColor" red="1" green="0.2901960784" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onInstallNowClick:" destination="-1" eventType="touchUpInside" id="79O-jq-caD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="zkA-gf-uYW" firstAttribute="trailing" secondItem="bN9-Xy-ciT" secondAttribute="trailing" id="0Nd-ks-76g"/>
+                        <constraint firstAttribute="trailing" secondItem="PnT-Qt-fyH" secondAttribute="trailing" constant="15" id="17P-ZD-99A"/>
+                        <constraint firstItem="PnT-Qt-fyH" firstAttribute="centerY" secondItem="j5T-0v-2cP" secondAttribute="centerY" id="3vh-6E-fvM"/>
+                        <constraint firstItem="zkA-gf-uYW" firstAttribute="leading" secondItem="bN9-Xy-ciT" secondAttribute="leading" id="9Vo-Gb-WGZ"/>
+                        <constraint firstAttribute="trailing" secondItem="bN9-Xy-ciT" secondAttribute="trailing" constant="8" id="PeF-ho-SQq"/>
+                        <constraint firstItem="bN9-Xy-ciT" firstAttribute="leading" secondItem="Qv2-nT-wNu" secondAttribute="trailing" constant="15" id="Qvz-fX-pv4"/>
+                        <constraint firstAttribute="trailing" secondItem="xmV-B5-fhK" secondAttribute="trailing" constant="15" id="YPB-LL-mAS"/>
+                        <constraint firstItem="bN9-Xy-ciT" firstAttribute="top" secondItem="Qv2-nT-wNu" secondAttribute="top" id="cpp-9F-lTM"/>
+                        <constraint firstAttribute="bottom" secondItem="xmV-B5-fhK" secondAttribute="bottom" constant="15" id="hp1-Pc-UZm"/>
+                        <constraint firstItem="Qv2-nT-wNu" firstAttribute="top" secondItem="j5T-0v-2cP" secondAttribute="top" constant="15" id="j9k-aX-AyJ"/>
+                        <constraint firstItem="Qv2-nT-wNu" firstAttribute="width" secondItem="j5T-0v-2cP" secondAttribute="width" multiplier="0.2" id="jCp-nn-tTg"/>
+                        <constraint firstItem="zkA-gf-uYW" firstAttribute="top" secondItem="bN9-Xy-ciT" secondAttribute="bottom" constant="8" id="mEN-h2-UFO"/>
+                        <constraint firstItem="PnT-Qt-fyH" firstAttribute="leading" secondItem="j5T-0v-2cP" secondAttribute="leading" constant="15" id="mza-mf-ctL"/>
+                        <constraint firstAttribute="width" secondItem="j5T-0v-2cP" secondAttribute="height" multiplier="1:1.5" id="pA6-ZN-Fk1"/>
+                        <constraint firstItem="Qv2-nT-wNu" firstAttribute="leading" secondItem="j5T-0v-2cP" secondAttribute="leading" constant="15" id="tfa-FH-ugM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2fO-zN-WMH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="1eU-1b-emW"/>
+                <constraint firstAttribute="trailing" secondItem="2fO-zN-WMH" secondAttribute="trailing" constant="20" id="7NO-Wc-AEd"/>
+                <constraint firstItem="j5T-0v-2cP" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="C5n-H7-wwr"/>
+                <constraint firstItem="j5T-0v-2cP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ba2-Xq-ZvT"/>
+                <constraint firstItem="j5T-0v-2cP" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="jTg-cP-FwW"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebook" width="60" height="60"/>
+        <image name="webstop" width="15" height="15"/>
+    </resources>
+</document>

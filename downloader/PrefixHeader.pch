@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  XYWProject
+//
+//  Created by xueyognwei on 2017/3/23.
+//  Copyright © 2017年 薛永伟. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//=====================> //
+//自定义log日志输出
+//#ifdef DEBUG
+//#define DDLogInfo(fmt, ...) NSLog((@"\n================%s %d-================\n====================================================================================================\n------> " fmt), __FUNCTION__,__LINE__,##__VA_ARGS__);
+//#else
+//#define DDLogInfo(fmt, ...);
+//#endif
+// <=====================//
+
+#define kLoadUrlNoti @"kLoadUrlNoti"
+//=====================> //
+#ifdef __OBJC__
+//加入需要的头文件
+#import <YYKit.h>
+#import <Masonry.h>
+#import "AnalyticsTool.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+#endif
+// <=====================//
+#ifdef DEBUG
+static const int ddLogLevel = DDLogLevelVerbose;
+#else
+//static const int ddLogLevel = DDLogLevelError;
+static const int ddLogLevel = DDLogLevelVerbose;
+#endif
+
+#endif /* PrefixHeader_pch */

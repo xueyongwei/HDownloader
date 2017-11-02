@@ -1,0 +1,96 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - FBAudienceNetwork (4.18.0)
+  - FirebaseAnalytics (3.6.0):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.6):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - Google/Analytics (3.0.3):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleAnalytics (3.17.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - RTRootNavigationController (0.5.22)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaHTTPServer
+  - CocoaLumberjack
+  - FBAudienceNetwork
+  - Google/Analytics
+  - Masonry
+  - MJRefresh
+  - RTRootNavigationController
+  - UITableView+FDTemplateLayoutCell
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  FBAudienceNetwork: 56c08468fbd5366f06c84037d859964403d83ce3
+  FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
+  FirebaseCore: 03da1cb32615569bbc2830a22f9ad753d9a02ef5
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RTRootNavigationController: cf134c044a8ce14d97fc668847ed4567efc53f91
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: c25bb87365cab0320c5719de61afa9e2d93802a6
+
+COCOAPODS: 1.1.1
